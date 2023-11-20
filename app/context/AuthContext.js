@@ -1,6 +1,6 @@
 "use client";
 import { useContext, createContext, useState, useEffect } from "react";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { auth } from "../firebase.config";
 
 const AuthContext = createContext();

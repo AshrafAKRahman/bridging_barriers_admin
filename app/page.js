@@ -45,10 +45,11 @@ const Home = () => {
 
   return (
     <form
-      className="w-screen h-screen bg-white flex justify-center items-center"
+      className="w-screen h-screen bg-white flex flex-col justify-center items-center"
       onSubmit={handleSignIn}
     >
-      <div className="w-5/6 h-2/3 flex flex-col items-center text-center z-10 ">
+      <img src="/logo.png" alt="Logo" className="w-96" />
+      <div className="w-5/6 h-1/3 flex flex-col items-center text-center z-10 ">
         <div className="emailLabel mt-8 md:mt-14 ">
           <label className="text-white ipad:text-4xl" htmlFor="inline-emai">
             Enter your email and password
@@ -78,7 +79,7 @@ const Home = () => {
         </div>
       </div>
       <button
-        className="bg-gray-600 text-white"
+        className="bg-blue-600 text-white w-20 h-10"
         type="submit"
         onClick={handleSignIn}
       >
