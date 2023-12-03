@@ -27,7 +27,7 @@ const Navbar = () => {
       link: "/pages/events",
     },
     {
-      title: "CAREERS",
+      title: "JOB BOARD",
       link: "/pages/careers",
     },
   ];
